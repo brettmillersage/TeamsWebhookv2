@@ -6,6 +6,8 @@ param (
     $TriggerMetadata
 )
 
+$Request
+
 # Interact with query parameters or the body of the request.
 
 if ($Request) {
