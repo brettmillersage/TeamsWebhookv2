@@ -15,7 +15,7 @@
       "direction": "out",
       "name": "outputSbMsg",
       "queueName": "messages",
-      "connection": ""
+      "connection": "SB_CONNECTION"
     }
   ]
 }
