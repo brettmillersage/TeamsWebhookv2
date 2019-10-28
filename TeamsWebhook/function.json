@@ -11,7 +11,7 @@
       ]
     },
     {
-      "type": "queue",
+      "type": "serviceBus",
       "direction": "out",
       "name": "outputSbMsg",
       "queueName": "messages",
