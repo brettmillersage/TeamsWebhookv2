@@ -6,7 +6,7 @@ param (
     $TriggerMetadata
 )
 
-$Request
+$output = $Request | ConvertFrom-Json
 
 # Associate values to output bindings by calling 'Push-OutputBinding'.
-Push-OutputBinding -Name outputSbMsg -Value $Request
+Push-OutputBinding -Name outputSbMsg -Value $output
