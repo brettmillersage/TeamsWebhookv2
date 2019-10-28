@@ -8,5 +8,7 @@ param (
 
 $output = $Request
 
+$output
+
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name outputSbMsg -Value $output
